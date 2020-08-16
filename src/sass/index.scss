@@ -1,0 +1,31 @@
+// Globals
+@import './components/_variables.scss';
+@import './components/_mixins.scss';
+// Components
+@import './components/_nav.scss';
+@import './components/_hero.scss';
+@import './components/_content.scss';
+@import './components/_cardBtn.scss';
+@import './components/_footer.scss';
+
+html {
+	font-size: 100%;
+	box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-size: 18px;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	line-height: 1.3;
+	font-size: 18px;
+	overflow-x: hidden;
+}

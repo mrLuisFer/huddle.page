@@ -1,0 +1,14 @@
+// Mixins
+@mixin btnStyle {
+	background: $pink;
+	color: $white;
+	border: none;
+	border-color: none;
+	outline: none;
+	outline-color: none;
+	border-radius: $radius;
+	letter-spacing: 1px;
+	padding: 5px 0;
+	font-family: $open;
+	transition: 0.3s ease;
+}

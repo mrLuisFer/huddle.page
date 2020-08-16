@@ -1,0 +1,83 @@
+.content {
+	position: relative;
+	margin: 0 28px;
+	padding: 0;
+	padding-top: 150px;
+	background: $white;
+	display: grid;
+	grid-template-rows: 1fr 1fr 1fr;
+	row-gap: 0;
+	margin-bottom: 270px;
+	&__card {
+		box-shadow: 0.5px 1px 7px rgba($darkCyan, 0.3);
+		margin: 40px 0;
+		border-radius: $radius;
+		text-align: center;
+		padding: 0 20px;
+		padding-top: 65px;
+		display: grid;
+		@media screen and (max-width: 453px) {
+			grid-template-rows: 230px 1fr;
+		}
+	}
+
+	&__Div-img {
+		margin: 0 auto;
+		display: flex;
+		justify-self: center;
+	}
+
+	&__title {
+		font-family: $pop;
+		color: $darkCyan;
+		font-size: 16px;
+		margin-top: 60px;
+		font-size: 25px;
+	}
+
+	&__param {
+		padding: 20px;
+		margin-bottom: 35px;
+		font-family: $open;
+		line-height: 1.6;
+		color: $grayishBlue;
+		font-size: 18px;
+	}
+
+	@media screen and (min-width: 1000px) {
+		margin: 0 100px;
+		margin-bottom: 260px;
+		&__text {
+			max-width: 560px;
+		}
+
+		&__card {
+			display: flex;
+			align-items: center;
+			text-align: left;
+			padding: 65px 35px;
+		}
+
+		.card1,
+		.card3 {
+			display: flex;
+			flex-direction: row-reverse;
+		}
+
+		&__img {
+			height: 328px;
+			width: 406px;
+		}
+
+		&__title {
+			font-size: 30px;
+			padding-bottom: 25px;
+		}
+
+		&__param {
+			font-size: 18.5px;
+			padding: 0;
+			padding-right: 60px;
+		}
+	}
+}

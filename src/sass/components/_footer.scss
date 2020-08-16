@@ -1,0 +1,10 @@
+.footer {
+	background: $darkCyan;
+	padding: 0 15px;
+	padding-top: 165px;
+	color: $paleCyan;
+	font-family: $open;
+	&__img {
+		margin-bottom: 32px;
+	}
+}

@@ -1,0 +1,39 @@
+.cardBtn {
+	position: absolute;
+	height: 212px;
+	box-shadow: 0px 0.5px 7px rgba($darkCyan, 0.3);
+	left: 0;
+	right: 0;
+	bottom: -400px;
+	background-color: $white;
+	text-align: center;
+	// padding: 0 30px;
+	padding-top: 55px;
+	// margin: 0 15px;
+	margin-bottom: 30px;
+	border-radius: $radius;
+	&__title {
+		font-family: $pop;
+		font-size: 20px;
+		padding-bottom: 35px;
+		@media screen and (min-width: 768px) {
+			font-size: 35px;
+		}
+	}
+
+	&__btn {
+		width: 237px;
+		height: 50px;
+		font-size: 14px;
+		@include btnStyle;
+		box-shadow: 0.5px 1.5px 7px rgba($darkCyan, 0.5);
+		&:hover {
+			background: $darkCyan;
+		}
+	}
+	@media screen and (min-width: 768px) {
+		max-width: 797px;
+		margin: 0 auto;
+		bottom: -360px;
+	}
+}
