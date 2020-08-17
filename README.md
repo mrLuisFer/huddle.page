@@ -1,6 +1,6 @@
 # Huddle Landing Page with Sass
 
-![Huddle Home Page Layout Preview with Sass](./src/design/desktop-preview.jpg)
+![Huddle Home Page Layout Preview with Sass](./design/desktop-preview.jpg)
 
 ## [This challenge is from Frontend Mentor](https://www.frontendmentor.io)
 
