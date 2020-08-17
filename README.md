@@ -1,4 +1,4 @@
-# Huddle Landing Page with Sass
+# [Huddle Landing Page with Sass](https://mrluisfer.github.io/huddle.page/)
 
 ![Huddle Home Page Layout Preview with Sass](./design/desktop-preview.jpg)
 
